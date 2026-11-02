@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    background-color: rgb(42, 216, 92);
+    overflow: hidden;
+    height: 100vh;
+}
+.details-apple{
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 780px;
+    height: 600px;
+    border-radius: 10px;
+}
+.details-apple-texts{
+    position: absolute;
+   right: 0px;
+    width: 410px;
+    height: 600px;
+}
+@font-face {
+    font-family: 'MyFriedoka';
+    src: url(./fonts/static/Oswald-Bold.ttf);
+}
+@font-face {
+    font-family: 'MyFriedoka-light';
+    src: url(./fonts/static/Oswald-Light.ttf);
+}
+@font-face {
+    font-family: 'MyFriedoka-Regular';
+    src: url(./fonts/static/Oswald-Regular.ttf);
+}
+h1{
+    position: absolute;
+    top: 35px;
+    font-family: 'MyFriedoka';
+    color: rgb(78, 76, 76);
+}
+.code{
+    position: absolute;
+    top: 95px;
+    color: rgb(187, 175, 175);
+}
+.t1{
+    position: absolute;
+    top: 160px;
+    font-size: 25px;
+    color: red;
+    font-family: 'MyFriedoka-light';
+}
+.t2{
+    position: absolute;
+    top: 64px;
+    font-size: 75px;
+    color: red;
+    font-family: 'MyFriedoka-light';
+    right: 54%;
+}
+.t3{
+position: absolute;
+    top: 240px;
+    color: rgb(187, 175, 175);
+}
+.img-Apples{
+width: 180px;
+position: absolute;
+top: 285px;
+}
+.t4{
+    position: absolute;
+    top: 350px;
+    color: rgb(187, 175, 175);
+}
+ul {
+    list-style-type: disc; 
+    position: fixed;
+    bottom: 118px;
+    left: 430px;
+}
+.buy{
+    width: 188px;
+    height: 55px;
+    background-color: rgb(236, 19, 19);
+    position: absolute;
+    bottom: 52px;
+    border-radius: 13px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+}
+.buy-text{
+    color: white;
+    font-family: 'MyFriedoka-Regular';
+    position: relative;
+    right: -25%;
+}
+.Apple-Example{
+    width: 362px;
+    height: 511px;
+    position: absolute;
+    top: 48px;
+    left: -65px;
+    background-color: rgb(109, 225, 74);
+    border-radius: 13px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(to bottom, rgb(109, 225, 74) 80%, #ffffff 80%);
+}
+.Apple-variants{
+    width: 314px;
+    height: 80px;
+    position: absolute;
+    bottom: 14px;
+    left: 24px;
+}
+.Apple{
+    width: 370px;
+    height: 400px;
+    position: absolute;
+left: -86px;
+    top: 21px;
+}
+.card-icons {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    display: flex;
+    justify-content: space-between; 
+    z-index: 10;
+}
+
+
+.card-icons .icon {
+    color: #ffffff; 
+    font-size: 20px;  
+    cursor: pointer; 
+    transition: transform 0.2s, color 0.2s;
+}
+
+
+.card-icons .icon:hover {
+    transform: scale(1.15); 
+}
